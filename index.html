@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="root">
+        <header class="first-header modal shadow grid-column-1 p-relative">
+            <form class="form-style">
+                <label for="input-text">
+                    <strong>Podaj numer ISBN</strong>
+                    <input type="text" id="input-text__ISBN" class="form-input-text__style">
+                </label>
+                <label for="input-text">
+                    <strong>Podaj tytuł książki</strong>
+                    <input type="text" id="input-text__title" class="form-input-text__style">
+                </label>
+                <button id="search-button" class="form-button bounce">Szukaj</button>
+                <div class="error d-none"></div>
+            </form>
+        </header>
+
+        <main class="main shadow modal grid-column-1 p-relative">
+            <article class="main-content">
+                <div class="books">
+                    <div class="no-book">
+                        <h1 class="first">Aby zobaczyć ksiązkę podaj numer ISBN</h1>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer class="footer1 modal shadow">
+            <p class="muted">Copyright Ⓒ Patryk Orzech</p>
+            
+        </footer>
+    </div>
+
+    
+</body>
+</html>
